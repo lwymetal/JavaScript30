@@ -49,3 +49,17 @@ kbd {
   letter-spacing: .1rem;
   color: #ffc600;
 }
+
+.blip {
+  background: rgba(120,120,120,0.7);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.show {
+  opacity: 1;
+}
